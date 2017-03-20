@@ -1,0 +1,28 @@
+name: HungerGamesDoDo
+main: KaitoDoDo\HungerGames\HungerGames
+author: KaitoDoDo
+version: 3.0.0
+api: 
+- 3.0.0-ALPHA1
+- 1.1.0
+- 1.0.0
+
+commands:
+    hg:
+        usage: /hg <leave-make>
+        description: HungerGames-Commands
+        permission: hg.cmd
+    lang:
+        usage: /lang <en>
+        description: HungerGames-English-Lang
+        permission: hg.cmd.lang
+    setrank:
+        usage: /setrank
+        description: HungerRanks-Commands
+        permission: hg.cmd.setrank
+    hgstart:
+        description: HungerGames-Force-start
+        permission: hg.cmd.start
+    hgcf:
+        description: HungerGames-Force-CF
+        permission: hg.cmd.cf
